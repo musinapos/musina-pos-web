@@ -1,148 +1,121 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>MUSHINA POS SYSTEMS</title>
-<style>
-  *{margin:0;padding:0;box-sizing:border-box;font-family:Arial,Helvetica,sans-serif}
-  body{background:#0a162e;color:#fff}
-  .top{max-width:1200px;margin:0 auto;padding:18px 20px;display:flex;justify-content:space-between;align-items:center;border:1px solid #c9a227}
-  .logo img{width:200px;max-width:100%;display:block}
-  .nav{font-size:14px}
-  .nav a{color:#fff;text-decoration:none;margin:0 8px}
-  .btn{background:#c9a227;color:#000;padding:10px 18px;border-radius:6px;font-weight:900;text-decoration:none;display:inline-block}
-  .hero{max-width:1200px;margin:0 auto;padding:40px 20px;display:flex;gap:30px;align-items:center}
-  .hero-left{flex:1.1}
-  .hero-left h1{font-size:44px;line-height:1.1;text-transform:uppercase}
-  .hero-left h2{color:#5aa0e6;font-size:22px;margin:10px 0}
-  .hero-left p{color:#ddd;line-height:1.6;font-size:14px}
-  .gold-btn{background:#c9a227;color:#000;padding:12px 20px;font-weight:900;border-radius:6px;display:inline-block;margin:18px 0;text-transform:uppercase;font-size:14px}
-  .tagline{font-family:Georgia,serif;font-style:italic;font-size:22px;margin:6px 0 20px}
-  .contacts{display:flex;flex-wrap:wrap;gap:10px}
-  .pill{border:1px solid #444;padding:8px 12px;border-radius:6px;font-size:13px}
-  .hero-right{flex:1}
-  .pos-box{background:#0e2a5a;border:2px solid #3a9bff;border-radius:18px;padding:14px;display:flex;gap:10px}
-  .pos-left{flex:1}
-  .grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px}
-  .c{padding:10px;border-radius:8px;text-align:center;font-weight:800;font-size:13px}
-  .orange{background:#ff8a00}.blue{background:#1da1f2}.purple{background:#8b3dff}
-  .white{background:#fff;color:#000}
-  .cash{display:flex;gap:8px;margin-top:10px}
-  .cash div{flex:1;background:#1e3a5f;padding:10px;border-radius:8px;text-align:center;font-size:13px}
-  .receipt{flex:1;background:#fff;color:#000;border-radius:10px;padding:12px}
-  .receipt table{width:100%;font-size:13px}
-  .receipt td{padding:4px 0}
-  .total{font-weight:900;font-size:20px;color:#8a6d00;text-align:right}
-  .services{max-width:1200px;margin:20px auto;padding:0 20px}
-  .services h3{text-align:center;letter-spacing:4px;color:#c9a227;margin-bottom:15px}
-  .s-grid{display:grid;grid-template-columns:1fr 1fr 1fr 1fr;gap:12px}
-  .s-card{border:1px solid #c9a227;padding:15px;border-radius:8px;text-align:center}
-  .s-card .icon{font-size:28px}
-  .s-card h4{margin:8px 0;font-size:14px}
-  .s-card p{font-size:12px;color:#ccc;line-height:1.5}
-  .bottom{display:flex;max-width:1200px;margin:20px auto 0}
-  .founder{flex:1;background:#0a162e;padding:25px;text-align:center}
-  .founder img{width:130px;height:130px;border-radius:50%;border:4px solid #c9a227;object-fit:cover}
-  .founder .name{background:#c9a227;color:#000;padding:5px 10px;font-weight:900;display:inline-block;margin-top:8px}
-  .founder h3{margin:8px 0 4px}
-  .founder p{font-size:12px;color:#ddd;line-height:1.6}
-  .why{flex:1.3;background:#f5f5f5;color:#000;padding:25px}
-  .why h3{text-align:center;font-size:20px;text-transform:uppercase}
-  .why-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:18px 0}
-  .why-item{display:flex;gap:8px;font-size:13px;line-height:1.5}
-  .why-item b{color:#c9a227}
-  .cta{background:#c9a227;text-align:center;padding:12px;font-weight:900;font-size:18px;border-radius:6px}
-  .cta2{background:#0a162e;color:#c9a227;text-align:center;padding:12px;margin-top:12px;font-weight:900;border-radius:6px}
-  footer{max-width:1200px;margin:0 auto;padding:20px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:15px;border-top:1px solid #333}
-  footer .f-logo img{width:180px;max-width:100%}
-  footer .f-sub{font-size:12px;color:#aaa;margin-top:5px}
-  footer .f-contact{font-size:14px;line-height:2}
-  .copy{text-align:center;font-size:11px;color:#aaa;padding:10px}
-  @media(max-width:800px){.hero,.bottom,.s-grid{flex-direction:column;display:block}.hero-right{margin-top:20px}.founder,.why{width:100%}}
-</style>
 </head>
-<body>
+<body bgcolor="#0a162e" text="white">
 
-<div class="top">
-  <div class="logo"><img src="logo.jpg" alt="MUSHINA POS SYSTEMS"></div>
-  <div class="nav"><a href="#">Home</a> • <a href="#">Services</a> • <a href="#">Features</a> • <a href="#">About</a> • <a href="#">Contact</a> &nbsp; <a class="btn" href="#">BOOK FREE DEMO</a></div>
-</div>
+<!-- TOP - LOGO CENTRE -->
+<center>
+<br>
+<img src="logo.jpg" width="320" alt="MUSHINA POS SYSTEMS">
+<br>
+<h2>MUSHINA POS SYSTEMS</h2>
+<p>Home | Services | Features | About | Contact</p>
+<a href="#demo"><button><b>BOOK FREE DEMO</b></button></a>
+<br><br>
+</center>
+<hr color="#c9a227">
 
-<div class="hero">
-  <div class="hero-left">
-    <h1>WE BUILD<br>PROFESSIONAL<br>WEBSITES & POS SYSTEMS</h1>
-    <h2>Smart Solutions For Your Business</h2>
-    <p>Empowering South African businesses with secure POS systems, custom websites, e-commerce stores, and digital solutions built for growth.</p>
-    <div class="gold-btn">CONTACT FOR FREE DEMO TODAY</div>
-    <div class="tagline">Your Business, Our Priority</div>
-    <div class="contacts">
-      <div class="pill">📞 Call: 068 036 1133</div>
-      <div class="pill">🟢 072 566 0255</div>
-      <div class="pill">🟢 079 907 3779</div>
-      <div class="pill">✉️ WhatsApp:</div>
-      <div class="pill">✉️ shaifrank6@gmail.com</div>
-    </div>
-  </div>
-  <div class="hero-right">
-    <div class="pos-box">
-      <div class="pos-left">
-        <div class="grid">
-          <div class="c orange">🍴<br>Food</div>
-          <div class="c blue">🥤<br>Drinks</div>
-          <div class="c purple">🛍️<br>Services</div>
-          <div class="c white">Cash</div>
-          <div class="c white">Card</div>
-          <div class="c white">More</div>
-        </div>
-        <div class="cash"><div>💵<br>Cash</div><div>💳<br>Card</div><div>•••<br>More</div></div>
-      </div>
-      <div class="receipt">
-        <table><tr><td>Burger</td><td>1 x R 80.00</td></tr><tr><td>Fizzy Drink</td><td>1 x R 120.00</td></tr><tr><td>Chips</td><td>1 x R 36.00</td></tr></table>
-        <hr><p>Total</p><div class="total">R 236.00</div>
-      </div>
-    </div>
-  </div>
-</div>
+<!-- HERO -->
+<center>
+<br><br>
+<table width="1000" cellpadding="20">
+<tr>
+<td width="50%" valign="top">
+<h1>WE BUILD<br>PROFESSIONAL<br>WEBSITES & POS SYSTEMS</h1>
+<h2><font color="#5aa0e6">Smart Solutions For Your Business</font></h2>
+<p>Empowering South African businesses with secure POS systems, custom websites, e-commerce stores, and digital solutions built for growth.</p>
+<br>
+<a href="#demo"><button><b>CONTACT FOR FREE DEMO TODAY</b></button></a>
+<br><br>
+<p><i><font size="5">Your Business, Our Priority</font></i></p>
+<br>
+<button><b>📞 Call: 068 036 1133</b></button> <button><b>🟢 072 566 0255</b></button> <button><b>🟢 079 907 3779</b></button>
+<br><br>
+<button><b>✉️ WhatsApp:</b></button> <button><b>✉️ shaifrank6@gmail.com</b></button>
+</td>
+<td width="50%" valign="top" bgcolor="white"><font color="black">
+<center><h3>POS DEMO</h3></center>
+<p>Burger - 1 x R 80.00</p>
+<p>Fizzy Drink - 1 x R 120.00</p>
+<p>Chips - 1 x R 36.00</p>
+<hr>
+<p>Total</p>
+<h2><font color="#8a6d00">R 236.00</font></h2>
+<center>
+<button>🍴 Food</button> <button>🥤 Drinks</button> <button>🛍️ Services</button><br><br>
+<button>Cash</button> <button>Card</button> <button>More</button>
+</center>
+</font></td>
+</tr>
+</table>
+<br><br>
+</center>
+<hr color="#c9a227">
 
-<div class="services">
-  <h3>OUR SERVICES</h3>
-  <div class="s-grid">
-    <div class="s-card"><div class="icon">🧋</div><h4>POS Systems</h4><p>Supplying reliable POS hardware for retail, hospitality & retail businesses.</p></div>
-    <div class="s-card"><div class="icon">📱</div><h4>Phone as POS</h4><p>Transform your smartphone into a secure POS system — no hardware required.</p></div>
-    <div class="s-card"><div class="icon">💻</div><h4>Professional Websites</h4><p>Custom-built, responsive websites designed for performance & SEO.</p></div>
-    <div class="s-card"><div class="icon">🛒</div><h4>Online Store & E-Commerce</h4><p>Launch your online store with secure payments and seamless delivery.</p></div>
-  </div>
-</div>
+<!-- SERVICES - SCROLL -->
+<center>
+<br><br>
+<h2><font color="#c9a227">OUR SERVICES</font></h2>
+<br>
+<table width="1000" cellpadding="15" border="1">
+<tr>
+<td align="center"><b>POS Systems</b><br><br>Supplying reliable POS hardware for retail, hospitality & retail businesses.<br><br><button>LEARN MORE</button></td>
+<td align="center"><b>Phone as POS</b><br><br>Transform your smartphone into a secure POS system — no hardware required.<br><br><button>LEARN MORE</button></td>
+<td align="center"><b>Professional Websites</b><br><br>Custom-built, responsive websites designed for performance & SEO.<br><br><button>LEARN MORE</button></td>
+<td align="center"><b>Online Store & E-Commerce</b><br><br>Launch your online store with secure payments and seamless delivery.<br><br><button>LEARN MORE</button></td>
+</tr>
+</table>
+<br><br><br>
+</center>
+<hr color="#c9a227">
 
-<div class="bottom">
-  <div class="founder">
-    <img src="founder.jpg" alt="Shaifrank">
-    <br><span class="name">FOUNDER & IT SPECIALIST</span>
-    <h3>Shaifrank</h3>
-    <p>Dedicated to delivering trusted, modern technology solutions that help South African small businesses grow with confidence and professionalism.</p>
-  </div>
-  <div class="why">
-    <h3>WHY CHOOSE MUSHINA POS SYSTEMS?</h3>
-    <div class="why-grid">
-      <div class="why-item"><b>✔</b><div><b>Trusted & Secure</b><br>Built to the highest standards for South African businesses</div></div>
-      <div class="why-item"><b>✔</b><div><b>Trusted & Secure - Ordering & Delivery</b><br>Expand your business beyond borders</div></div>
-      <div class="why-item"><b>✔</b><div><b>Seamless Online Ordering & Delivery</b><br>Expand your business beyond borders</div></div>
-      <div class="why-item"><b>✔</b><div><b>Cloud-Based & Real-Time</b><br>Access your data securely anytime, anywhere</div></div>
-      <div class="why-item"><b>✔</b><div><b>Cloud-Based & Real-Time</b><br>Access your data securely anytime, anywhere</div></div>
-      <div class="why-item"><b>✔</b><div><b>Dedicated Local Support</b><br>Personalized assistance from our expert team</div></div>
-    </div>
-    <div class="cta">Ready to Elevate Your Business?</div>
-    <div class="cta2">CONTACT FOR FREE DEMO TODAY</div>
-  </div>
-</div>
+<!-- FOUNDER + WHY - SCROLL -->
+<center>
+<table width="1000" cellpadding="20">
+<tr>
+<td width="35%" valign="top" align="center">
+<img src="founder.jpg" width="170" height="170" alt="Shaifrank">
+<br><br>
+<b><font color="black" bgcolor="#c9a227">&nbsp; FOUNDER & IT SPECIALIST &nbsp;</font></b>
+<h3>Shaifrank</h3>
+<p>Dedicated to delivering trusted, modern technology solutions that help South African small businesses grow with confidence and professionalism.</p>
+</td>
+<td width="65%" valign="top" bgcolor="#f5f5f5"><font color="black">
+<center><h2>WHY CHOOSE MUSHINA POS SYSTEMS?</h2></center>
+<p>✔ <b>Trusted & Secure</b><br>Built to the highest standards for South African businesses</p>
+<p>✔ <b>Seamless Online Ordering & Delivery</b><br>Expand your business beyond borders</p>
+<p>✔ <b>Cloud-Based & Real-Time</b><br>Access your data securely anytime, anywhere</p>
+<p>✔ <b>Dedicated Local Support</b><br>Personalized assistance from our expert team</p>
+<center><button><b>Ready to Elevate Your Business?</b></button></center>
+</font></td>
+</tr>
+</table>
+</center>
+<hr color="#c9a227">
 
-<footer>
-  <div><div class="f-logo"><img src="logo.jpg" alt="MUSHINA POS SYSTEMS"></div><div class="f-sub">Smart Solutions For Your Business • Your Business, Our Priority</div></div>
-  <div class="f-contact">📞 068 036 1133<br>🟢 079 907 3779</div>
-  <div class="f-contact">🟢 012 566 0255<br>✉️ shaifrank6@gmail.com</div>
-</footer>
-<div class="copy">© 2024 MUSHINA POS SYSTEMS • All Rights Reserved • Professional • Reliable • Local • Supporting Small Businesses Across South Africa</div>
+<!-- BOTTOM - LOGO CENTRE AGAIN + BUTTONS -->
+<center id="demo">
+<br><br>
+<img src="logo.jpg" width="220" alt="MUSHINA POS SYSTEMS">
+<br><br>
+<h2>Ready to Elevate Your Business?</h2>
+<br>
+<a href="tel:0680361133"><button><b>📞 CALL 068 036 1133</b></button></a>
+<br><br>
+<a href="https://wa.me/27725660255"><button><b>🟢 WHATSAPP 072 566 0255</b></button></a>
+<br><br>
+<a href="mailto:shaifrank6@gmail.com"><button><b>✉️ shaifrank6@gmail.com</b></button></a>
+<br><br>
+<button><b>CONTACT FOR FREE DEMO TODAY</b></button>
+<br><br>
+<p>Smart Solutions For Your Business • Your Business, Our Priority</p>
+<p>📞 068 036 1133 | 🟢 079 907 3779 | 🟢 012 566 0255</p>
+<p>© 2024 MUSHINA POS SYSTEMS • All Rights Reserved • Professional • Reliable • Local</p>
+<br><br>
+</center>
 
 </body>
 </html>
